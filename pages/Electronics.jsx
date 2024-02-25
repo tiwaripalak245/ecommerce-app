@@ -18,7 +18,7 @@ const Electronics = () => {
   
   useEffect(() => {
     getElectronics("electronics")
-  },[])
+  },[products])
 
   return (
     <div className="product-container">

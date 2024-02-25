@@ -3,7 +3,7 @@ import hero_image from '../assets/herosection.jpg'
 import { FaShoppingBag } from "react-icons/fa";
 import sale from '../assets/green.webp'
 import white from '../assets/white.webp'
-import landing from '../assets/landing-page.png'
+import landing from '../assets/fashion-blog-banner.png'
 
 
 

@@ -3,22 +3,22 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div class="footer">
-                <div class="left-part">
+            <div className="footer">
+                <div className="left-part">
                     <h2>Stylevista.com</h2>
                     <p>Follow us on:
                     </p>
                     <span>
-                    <i class="bi bi-facebook"></i> 
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-twitter"></i>   
-                    <i class="bi bi-linkedin"></i>           
+                    <i className="bi bi-facebook"></i> 
+                    <i className="bi bi-instagram"></i>
+                    <i className="bi bi-twitter"></i>   
+                    <i className="bi bi-linkedin"></i>           
                              </span>
                     <h6>16 East 34th Street, 15th Floor,
                         New York, NY 10016</h6>
                 </div>
 
-                <div class="list">
+                <div className="list">
                     <ul>
                         <li><h5>Online Shopping</h5></li>
                         <li>Men</li>
@@ -65,7 +65,7 @@ const Footer = () => {
             </div>
 
 
-            <div class="line-box">
+            <div className="line-box">
                 <span>
                     <p>Countries</p>
                     <p>Privacy</p>

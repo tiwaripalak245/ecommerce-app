@@ -7,7 +7,9 @@ export const ProductProvider = ({children}) => {
 
     const initialState = {
         products: [],
-        cartItems: [],
+        productItem: [],
+        cartProduct: [],
+        wishItem: [],
         total: 0,
     }
 
@@ -16,6 +18,9 @@ export const ProductProvider = ({children}) => {
         <ProductContext.Provider value={{...state, dispatch}}>
             {children}
         </ProductContext.Provider>
+
+
+        
     )
 }
 
