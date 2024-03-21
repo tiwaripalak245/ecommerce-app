@@ -33,6 +33,7 @@ useEffect(() => {
   useEffect(() => {
     getProducts();
   }, []);
+
   return (
     <>
       <div className="product-container">

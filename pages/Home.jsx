@@ -8,16 +8,6 @@ import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
 
-  const {user, isSuccess} = useSelector((state) => state.auth)
-  const navigate = useNavigate()
-
-
-
- useEffect(() => {
-  if (!user) {
-    navigate("/register")
-   }
-  }, [user, navigate])
 
 
   return (

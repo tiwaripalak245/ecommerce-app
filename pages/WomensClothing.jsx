@@ -18,7 +18,7 @@ const getElectronics = async(category) => {
 
 useEffect(() => {
   getElectronics("women's clothing")
-})
+}, [])
 
 
 
